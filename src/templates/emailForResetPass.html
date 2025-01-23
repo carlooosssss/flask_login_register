@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar contraseña</title>
+</head>
+<body>
+    <h1>Escriba el correo asignado a su cuenta </h1>
+    
+    <span>Una vez escrito, al pulsar el boton se le
+        enviará un link a su correo el cual debe clickar antes de los 5 min, sino no sera efectivo el link. </span>
+    
+    <form action="/forgotpassword" method="POST">
+        <input type="email" name="email" placeholder="Escriba su email">
+        <button type="submit">Solicitar email</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+</head>
+<body>
+    <section>
+        <div>
+            <form action="/verificate_user" method="POST">
+                <div>
+                    <input type="text" name="username" placeholder="Nombre de Usuario">
+                    <input type="password" name="password" placeholder="Contraseña">
+                </div>
+                <button type="submit">Iniciar sesión</button>
+                <a href="{{url_for('verificate')}}">¿Ha olvidado su contraseña?</a>
+            </form>
+
+        </div>
+    </section>
+</body>
+</html>
